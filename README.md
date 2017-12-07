@@ -12,8 +12,10 @@ In this session we will answer these questions and more as we explore what Docke
 >> #### The old ways of Operations
 >> * Old Snowflake Servers
 >> * Let's Run Virtual Machines
+
 >> #### The old ways of Development
 >> * It works on my development machine
+
 >> #### The rise of DevOps
 >> * Then need of tools
 >> * Abstracted Resorces
