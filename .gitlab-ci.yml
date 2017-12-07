@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+variables:
+  GITHUB_PROJECT: "thejordanclark/buzz-about-docker.git"
+
+deploy_to_github:
+  stage: deploy
+  script:
+    - git checkout master
+    - git push git@github.com:${GITHUB_PROJECT} master
+  only:
+    - master
